@@ -4,4 +4,11 @@
         <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="Kopicetheprojects" revision="staging" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Kopicetheprojects" revision="staging" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Kopicetheprojects" revision="staging" />
+  <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
+        <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Rn4" revision="12.0" />
+        <remove-project name="crdroidandroid/android_hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Rn4" revision="12.0" />
+        <remove-project name="crdroidandroid/android_frameworks_native" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="Rn4" revision="12.0" />
+
 </manifest>
